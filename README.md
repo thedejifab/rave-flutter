@@ -1,16 +1,20 @@
-# rave_flutter
+# Work in Progress :construction:
 
-A new Flutter project.
+## rave-flutter
+Flutterwave SDK for the Flutter mobile framework.
 
-## Getting Started
+### TODO
+- [ ] Encryption
+- [ ] Card charge parameters
+- [ ] Account charge parameters
+- [ ] Recurring billing parameters (In consideration as to whether or not it can ship with first version)
+- [ ] API keys configuration
+- [ ] Payment callbacks implementation (This accounts for callbacks in cases such as process timeout)
+- [ ] Testing 
+- [ ] Publishing
 
-This project is a starting point for a Flutter application.
+### WIP
+- [ ] None
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+### Procedures
+Card details collection -> Card encryption -> Payment initiation -> Payment validation -> Payment verification -> Card saving for subsequent usage
