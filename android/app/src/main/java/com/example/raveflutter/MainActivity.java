@@ -17,12 +17,9 @@ public class MainActivity extends FlutterActivity {
     super.onCreate(savedInstanceState); 
     GeneratedPluginRegistrant.registerWith(this);
 
-//    new RavePayManager(this).
-      SubAccount subAccount = new SubAccount();
-      Meta
-      Implementation of Currency and Country classes [Completed]
-      Implementation of Manager class [WIP]
-      Implementation of SubAccount and Meta classes [WIP]
+    new RavePayManager(this).
+//      SubAccount subAccount = new SubAccount();
+
 
   }
 
